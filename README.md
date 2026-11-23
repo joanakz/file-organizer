@@ -1,24 +1,36 @@
 # File Organizer
 
-A simple Python script that automatically organizes files into folders based on their file type.
+A beginner-friendly Python script that organizes files into folders based on their file extensions.
 
 ## Features
-- Automatically sorts files into folders
-- Supports multiple file types (e.g. images, documents, etc.)
-- Helps keep directories clean and organized
 
-## How to use
+- Organizes files into folders by extension (such as `.rtf`, `.pdf`, or `.jpg`)
+- Checks whether the entered folder path is valid
+- Skips hidden files, such as `.DS_Store`
+- Skips files without extensions
+- Avoids overwriting files with the same name
+- Displays messages showing which files were moved or skipped
 
-1. Run the script:
+## How to Use
 
-```bash
-python file_organizer.py
-```
-2. Enter the folder path
-3. Files will be sorted automatically into folders
+1. Make sure Python 3 is installed.
+2. Download or clone this repository.
+3. Open a terminal in the project folder.
+4. Run:
+
+   ```bash
+   python3 file_organizer.py
+   ```
+
+5. Enter the full path of the folder you want to organize.
+
+**Important:** Test the script on a practice folder first. It moves files into subfolders, so your original folder structure will change.
 
 ## Technologies
-- Python
 
-## Author
-- Joana Kozlovska
+- Python 3
+- Python standard libraries: `os` and `shutil`
+
+## About This Project
+
+I built this project to practise Python fundamentals, file handling, loops, conditions, and basic error prevention.
