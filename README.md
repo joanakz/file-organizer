@@ -34,3 +34,19 @@ A beginner-friendly Python script that organizes files into folders based on the
 ## About This Project
 
 I built this project to practise Python fundamentals, file handling, loops, conditions, and basic error prevention.
+
+## Example
+
+Before organizing:
+
+- notes.rtf
+- report.rtf
+- photo.jpg
+
+After organizing:
+
+- rtf/
+  - notes.rtf
+  - report.rtf
+- jpg/
+  - photo.jpg
