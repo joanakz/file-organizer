@@ -1,6 +1,6 @@
 # File Organizer
 
-A beginner-friendly Python script that organizes files into folders based on their file extensions.
+A beginner-friendly Python command-line tool that organizes files into folders based on their file extensions.
 
 ## Features
 
